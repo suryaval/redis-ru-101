@@ -34,6 +34,7 @@ Limits:
 >	BITCOUNT key [start end]
 
 	BITCOUNT returns the count of the number of set bits only.
+	BITCOUNT uses a zero based byte offset from the left of the string.
 	
 >	BITOP operation destkey key [key …]
 
