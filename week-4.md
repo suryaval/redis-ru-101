@@ -43,3 +43,4 @@ Limits:
 >	BITPOS key bit [start end]
 
 	BITPOS can be used to find the index of the first set or unset bit.
+	hscan "event:PDMM-JUOT-FPFF-BBLO" 0 match available:*
