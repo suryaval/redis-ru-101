@@ -33,6 +33,10 @@ Limits:
 
 >	BITCOUNT key [start end]
 
+	BITCOUNT returns the count of the number of set bits only.
+	
 >	BITOP operation destkey key [key …]
 
 >	BITPOS key bit [start end]
+
+	BITPOS can be used to find the index of the first set or unset bit.
