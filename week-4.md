@@ -26,3 +26,13 @@ Limits:
 ```
 
 ### BitArray
+
+>	GETBIT key offset
+
+>	SETBIT key offset value
+
+>	BITCOUNT key [start end]
+
+>	BITOP operation destkey key [key …]
+
+>	BITPOS key bit [start end]
