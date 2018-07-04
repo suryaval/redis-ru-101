@@ -4,5 +4,17 @@
 
 ### BitField
 
+> Bitfield mykey set u8 0 42
+
+> Bitfield mykey get u8 0
+
+> Bitfield mykey incrby u8 1
+
+`43`
+
+> Type mykey
+
+` "raw" `
+
 
 ### BitArray
