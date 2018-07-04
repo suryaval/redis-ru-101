@@ -37,6 +37,8 @@ Limits:
 	
 >	BITOP operation destkey key [key …]
 
+	Allowed operations: AND OR XOR NOT
+
 >	BITPOS key bit [start end]
 
 	BITPOS can be used to find the index of the first set or unset bit.
