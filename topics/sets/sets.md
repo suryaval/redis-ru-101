@@ -73,7 +73,7 @@ sadd ground-transport bicycle motorcycle car bus
 (empty list or set)
 ```
 
-#   SDIFFSTORE
+##   SDIFFSTORE
 
 ```
 127.0.0.1:6379> sdiffstore ground-transport some-set result
@@ -90,7 +90,7 @@ sadd ground-transport bicycle motorcycle car bus
 127.0.0.1:6379>
 ```
 
-# SINTER
+## SINTER
 ```
 127.0.0.1:6379> sinter ground-transport some-set
 1) "motorcycle"
@@ -99,7 +99,7 @@ sadd ground-transport bicycle motorcycle car bus
 4) "bus"
 ```
 
-# SREM
+## SREM
 
 ```
 127.0.0.1:6379> smembers ground-transport
@@ -122,7 +122,7 @@ sadd ground-transport bicycle motorcycle car bus
 4) "bus"
 ```
 
-# SSCAN
+## SSCAN
 ```
 127.0.0.1:6379> sscan ground-transport 0 match *
 1) "0"
